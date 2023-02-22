@@ -1,0 +1,37 @@
+.buttons-buy{
+
+    font-family: 'Montserrat', sans-serif;
+       padding-top: 12px;
+       padding-bottom: 12px;
+       padding-left: 34px;
+       padding-right: 34px;
+
+       font-weight: 600;
+       font-size: 14px;
+       line-height: 1.14;
+       background-color: #F8D24E;
+       border-radius: 10px;
+       border: none;
+
+       color: #000000;
+
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+
+       width: 152px;
+
+    &__svg{
+        fill: #000000;
+        width: 12px;
+        height: 12px;
+    }
+}
+
+.buttons__container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #fff;
+
+}
+

@@ -1,0 +1,96 @@
+<!-- ===HEADER-HERO=== -->
+<header class="header">
+<div class="container header__container">
+    
+    <!-- mobile-meny -->
+    <nav class="mobile" data-mobile>
+        <a class="mobile__logo"><img src="./images/header/site-logo.svg" alt="Лого сайта" class="header__logo-image"/></a>
+        <button type="button" class="mobile__button" data-mobile-close>
+            <svg class="mobile__button-svg" aria-label="переключатель мобильного меню">
+                <use href="./images/sprite.svg#icon-close-btn"></use>
+            </svg>
+
+        </button>
+
+        <ul class="mobile-menu">
+            <li class="mobile-menu__item"><a href="#" class="mobile-menu__link" data-mobile-close-link1>Home</a></li>
+            <li class="mobile-menu__item"><a href="#galary" class="mobile-menu__link" data-mobile-close-link2>About us</a></li>
+            <li class="mobile-menu__item"><a href="#about" class="mobile-menu__link" data-mobile-close-link3>How it’s made?</a></li>
+            <li class="mobile-menu__item"><a href="#products" class="mobile-menu__link" data-mobile-close-link4>Our products</a></li>
+            <li class="mobile-menu__item"><a href="#contacts" class="mobile-menu__link" data-mobile-close-link5>Contact</a></li>
+        </ul>
+
+        <button type="button" class="mobile__buy-button">Buy now
+            <svg class="mobile__buy-button-svg">
+                <use href="./images/sprite.svg#icon-Frame-button"></use>
+            </svg>
+        </button>
+    </nav>
+
+    <div class="header__mainflex">
+
+    <!-- nav -->
+    <nav class="header__nav">
+        <a class="header__logo" href="#"><img src="./images/header/site-logo.svg" alt="Лого сайта" class="header__logo-image"/></a>
+        <ul class="menu">
+            <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="#galary" class="menu__link">About us</a></li>
+            <li class="menu__item"><a href="#about" class="menu__link">How it’s made?</a></li>
+            <li class="menu__item"><a href="#products" class="menu__link">Our products</a></li>
+            <li class="menu__item"><a href="#contacts" class="menu__link">Contact</a></li>
+        </ul>
+        <button type="button" class="header__button" data-mobile-open>
+            <svg class="header__button-svg" aria-label="переключатель мобильного меню">
+                <use href="./images/sprite.svg#icon-Burger"></use>
+            </svg>
+        </button>
+    </nav>
+
+    <!-- sidebar -->
+
+    <div class="sidebar">  
+        <button type="button" class="sidebar__buy-button">Buy now
+            <svg class="sidebar__buy-button-svg">
+                <use href="./images/sprite.svg#icon-Frame-button"></use>
+            </svg>
+        </button>
+        <ul class="sidebar__items">
+            <li class="sidebar__item"><p class="sidebar__number">16</p></li>
+            <li class="sidebar__item"><p class="sidebar__text">cafes</p></li>
+            <li class="sidebar__item"><p class="sidebar__number">23</p></li>
+            <li class="sidebar__item"><p class="sidebar__text">food trucks</p></li>
+        </ul>
+    </div>
+
+    </div> 
+
+    <!-- title -->
+    <div class="title-container"> 
+    <h1 class="header__title">ice cream made with <span class="header__title-span">passion</span></h1>
+    </div>
+    <ul class="heder-links">
+        <li class="heder-links__item"><a href="#products" class="heder-links__button">Products</a></li>
+        <li class="heder-links__item"><a href="#about" class="heder-links__link">How it’s made?</a></li>
+    </ul>
+        <picture  class="header__ice-img">
+            <source srcset="./images/header/ice.png" media="(max-width: 767px)" />
+            <source srcset="./images/header/ice_tablet.png" media="(max-width: 1199px)" />
+            <source srcset="./images/header/ice_desktop.png" media="(min-width: 1200px)" />
+            <img src="./images/header/ice.png" alt="Мороженко" />
+        </picture> 
+
+        <div class="header__manyice-container">
+        </div>
+
+        <div class="lorem">
+        <div class="lorem__container">
+            <p class="lorem__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+        </div>
+        <a href="#" class="lorem__link">
+        <svg class="lorem__errow">
+            <use href="./images/sprite.svg#icon-Arrow-header"></use>
+        </svg>
+        </a>
+        </div>
+</div>
+</header>
